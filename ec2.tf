@@ -1,5 +1,6 @@
 provider "aws" {
   region = "us-east-2"
+  profile = "cicd-profile"
 }
 
 resource "aws_default_vpc" "default_vpc" {
